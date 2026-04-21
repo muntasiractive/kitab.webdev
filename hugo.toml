@@ -1,0 +1,25 @@
+baseURL = 'https://webdev.muntasir.site'
+locale = 'en-us'
+title = 'Kitab.Webdev'
+theme = 'hugo-book'
+enableRobotsTXT = true
+
+# Optional: Disable taxonomy generation for a cleaner doc site
+disableKinds = ['taxonomy']
+
+[params]
+  # (Optional) Sets color theme: light, dark, or auto (default is light)
+  BookTheme = 'auto'
+
+  # (Optional) Set this to false to hide the Table of Contents globally
+  BookToC = true
+
+  # (Optional) Set the folder to use for the menu (default is "docs")
+  # Use "*" to include all sections
+  BookSection = 'docs'
+
+  # (Optional) Enable search support
+  BookSearch = true
+
+  # (Optional) Enable 'Last Modified' date and git author info
+  enableGitInfo = true

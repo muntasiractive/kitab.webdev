@@ -1,0 +1,8 @@
+{
+  "name": "kitab.webdev",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "dev": "hugo server -D"
+  }
+}
