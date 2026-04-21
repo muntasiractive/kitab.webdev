@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "hugo --gc --minify",
-    "dev": "hugo server -D"
+    "dev": "hugo server -D",
+    "deploy": "hugo --gc --minify && npx wrangler pages deploy public --project-name kitab-webdev --commit-dirty=true"
   }
 }
